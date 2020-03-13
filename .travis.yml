@@ -5,9 +5,9 @@ branches:
   only: master
 env:
   global:
-  - S3_BUCKET_NAME=
-  - CODEDEPLOY_APPLICATION=
-  - CODEDEPLOY_GROUP=
+  - S3_BUCKET_NAME=rexvip-cd-test
+  - CODEDEPLOY_APPLICATION=aws-homework
+  - CODEDEPLOY_GROUP=aws-homework-deploy-group
   - REGION=ap-northeast-1
   - LOCAL_DIR=deploy
 script:
